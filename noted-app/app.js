@@ -1,2 +1,2 @@
-const fs = require("fs");
-fs.appendFileSync("note.txt", " I am a Developer");
+const note = require("./notes.js");
+console.log(note());
